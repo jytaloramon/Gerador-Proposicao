@@ -1,0 +1,15 @@
+body {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-image: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+}
+
+.form {
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.result {
+    height: 100px;
+    border-radius: 10px
+}

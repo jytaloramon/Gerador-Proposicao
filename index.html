@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<title>Inicio</title>
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<header class="mt-0">
+			<div class="">
+				<h1 class="text-center font-italic font-weight-bold title text-warning mt-4">Gerador de Proposições</h1>
+			</div>
+		</header>
+
+		<section>
+			<div class="mt-5">
+				<form class="form font-italic font-weight-bold col-lg-5 col-12 col-sm-12 m-auto p-4 bg-dark" action="">
+					<div class="text-center">
+						<h4 class="text-warning">Formato de saída</h4>
+					</div>
+
+					<div class="form-group form-inline border-bottom">
+						<input checked class="mr-1" type="radio" name="inpt-radio" id="inpt-default">
+						<label class="mt-1">Normal</label>
+					</div>
+
+					<div class="form-group form-inline border-bottom">
+						<input class="mr-1" type="radio" name="inpt-radio" id="inpt-deducNatural">
+						<label class="mt-1">Dedução natural</label>
+					</div>
+
+					<p class="text-center">
+						<a id="btn-generate" class="btn btn-danger text-white col-5">Gerar</a>
+					</p>
+				</form>
+			</div>
+
+			<div class="text-center bg-warning col-lg-5 col-12 col-sm-12 ml-auto mr-auto mt-4 p-4 result" id="exit-generate"></div>
+		</section>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+	<script type="module" src="./assets/js/main.js"></script>
+</body>
+
+</html>
