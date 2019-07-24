@@ -1,11 +1,15 @@
-export default function () {
-    const key = Math.floor(Math.random() * 4);
+module.exports.generate = function () {
+    const key = Math.floor(Math.random() * 100);
+    return conectores[key];
+}
+
+module.exports.getWeightConnector = function (key){
     return conectores[key];
 }
 
 const conectores = {
-    0: " ^ ",
-    1: " v ",
-    2: " -> ",
-    3: " <=> "
+    "^": 17,
+    "v": 13,
+    "=>": 11,
+    "<=>": 7
 }

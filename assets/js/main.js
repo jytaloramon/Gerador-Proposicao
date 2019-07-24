@@ -14,3 +14,4 @@ $('#btn-generate').on('click.btn_generate', (e) => {
 function setResultCanvas(result) {
     exit_generate.append('<p>' + result + '</p>');
 }
+"( E -> E -> A ) <=> ( E <=> C ) v ( C -> E ) ^ ( G ) v Q <=> I -> G"
